@@ -4,7 +4,7 @@ const bip39 = require('bip39');
 
 // use unorm until String.prototype.normalize gets better browser support
 const unorm = require('unorm');
-const WORD_BIT_SIZE = 10;
+const WORD_BIT_SIZE = 11;
 
 
 var ENGLISH_WORDLIST = require('./wordlists/english.json')
